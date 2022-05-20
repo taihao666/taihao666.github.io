@@ -8,71 +8,16 @@
     
       
       <item>
-        <title>Python 강좌(2) - Python 제어문</title>
+        <title>화가 나네</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-   &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;일쳐하라고&lt;/a&gt;&lt;/li&gt;
-   &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+          <description>&lt;p&gt;대체 RMarkdown은 어케올리는거야&lt;/p&gt;
 
 </description>
         
-        <pubDate>Fri, 20 May 2022 00:00:00 +0900</pubDate>
+        <pubDate>Sat, 21 May 2022 00:00:00 +0900</pubDate>
         <link>
-        https://taihao666.github.io/python-control-statement.md</link>
-        <guid isPermaLink="true">https://taihao666.github.io/python-control-statement.md</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>일쳐하라고</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-   &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;일쳐하라고&lt;/a&gt;&lt;/li&gt;
-   &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Fri, 20 May 2022 00:00:00 +0900</pubDate>
-        <link>
-        https://taihao666.github.io/python-basic.md</link>
-        <guid isPermaLink="true">https://taihao666.github.io/python-basic.md</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>P2E_Study_Note</title>
-        
-          <description>```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-</description>
-        
-        <pubDate>Fri, 20 May 2022 00:00:00 +0900</pubDate>
-        <link>
-        https://taihao666.github.io/P2E_Study_Note.Rmd</link>
-        <guid isPermaLink="true">https://taihao666.github.io/P2E_Study_Note.Rmd</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Gettysburg Address</title>
-        
-          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 19 Nov 1863 19:18:00 +0900</pubDate>
-        <link>
-        https://taihao666.github.io/gettysburg-address</link>
-        <guid isPermaLink="true">https://taihao666.github.io/gettysburg-address</guid>
+        https://taihao666.github.io/first_article</link>
+        <guid isPermaLink="true">https://taihao666.github.io/first_article</guid>
       </item>
       
     

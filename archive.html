@@ -20,6 +20,12 @@
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
     <!--custom.css-->
     <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--웹폰트추가-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <!--syntanx.css 추가-->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -121,7 +127,6 @@ into the {body} of the default.hbs template -->
    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
    <li class="nav-P2E" role="menuitem"><a href="/tag/P2E/">P2E</a></li>
-   <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
    <li class="nav-archive" role="menuitem">
        <a href="/archive.html">All Posts</a>
    </li>
@@ -137,7 +142,7 @@ into the {body} of the default.hbs template -->
             
         </div>
         
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+            <a class="subscribe-button" href="#subscribe">Search</a>
         
     </div>
 </nav>
@@ -168,38 +173,7 @@ into the {body} of the default.hbs template -->
    
    <li><span class="post-date">
        
-       2022-05-20 </span><a href="./python-control-statement.md" target="_blank">Python 강좌(2) - Python 제어문</a></li>
-
-   
-       
-       
-       
-   
-   <li><span class="post-date">
-       
-       2022-05-20 </span><a href="./python-basic.md" target="_blank">일쳐하라고</a></li>
-
-   
-       
-       
-       
-   
-   <li><span class="post-date">
-       
-       2022-05-20 </span><a href="./P2E_Study_Note.Rmd" target="_blank">P2E_Study_Note</a></li>
-
-   
-       
-       
-       
-           </ul>
-           <h3>1863</h3>
-           <ul>
-       
-   
-   <li><span class="post-date">
-       
-       1863-11-19 </span><a href="./gettysburg-address" target="_blank">Gettysburg Address</a></li>
+       2022-05-21 </span><a href="./first_article" target="_blank">화가 나네</a></li>
 
 </ul>
 </div>
@@ -246,24 +220,37 @@ $(function() {
 
     <!-- The big email subscribe modal content -->
     
-        <div id="subscribe" class="subscribe-overlay">
-            <a class="subscribe-overlay-close" href="#"></a>
-            <div class="subscribe-overlay-content">
-                
-                <h1 class="subscribe-overlay-title">Subscribe to 공모전 대비 공부노트</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+    <div id="subscribe" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            
+            <h1 class="subscribe-overlay-title">Search 공모전 대비 공부노트</h1>
+            <p class="subscribe-overlay-description">
+                제목을 입력하세요 </p>
+            <span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+        <input class="subscribe-email" onkeyup="myFunc()"
+               id="searchtext" type="text" name="searchtext"
+               placeholder="Search..." />
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
 
-            </div>
+
+
         </div>
+    </div>
     
 
     <!-- highlight.js -->
