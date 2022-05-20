@@ -1,6 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://taihao666.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taihao666.github.io/" rel="alternate" type="text/html" /><updated>2022-05-21T01:23:41+09:00</updated><id>https://taihao666.github.io/feed.xml</id><title type="html">공모전 대비 공부노트</title><subtitle>하나만 걸려라</subtitle><entry><title type="html">화가 나네</title><link href="https://taihao666.github.io/first_article" rel="alternate" type="text/html" title="화가 나네" /><published>2022-05-21T00:00:00+09:00</published><updated>2022-05-21T00:00:00+09:00</updated><id>https://taihao666.github.io/first_article</id><content type="html" xml:base="https://taihao666.github.io/first_article">&lt;p&gt;대체 RMarkdown은 어케올리는거야&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://taihao666.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taihao666.github.io/" rel="alternate" type="text/html" /><updated>2022-05-21T02:14:05+09:00</updated><id>https://taihao666.github.io/feed.xml</id><title type="html">공모전 대비 공부노트</title><subtitle>하나만 걸려라</subtitle><entry><title type="html">화가 나네</title><link href="https://taihao666.github.io/first_article" rel="alternate" type="text/html" title="화가 나네" /><published>2022-05-21T00:00:00+09:00</published><updated>2022-05-21T00:00:00+09:00</updated><id>https://taihao666.github.io/first_article</id><content type="html" xml:base="https://taihao666.github.io/first_article">&lt;h1 id=&quot;헤딩&quot;&gt;헤딩&lt;/h1&gt;
+&lt;h2 id=&quot;ㄴ&quot;&gt;ㄴ&lt;/h2&gt;
+&lt;h3 id=&quot;ㅇ&quot;&gt;ㅇ&lt;/h3&gt;
+&lt;p&gt;대체 RMarkdown은 어케올리는거야&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;script src=&quot;https://gist.github.com/taihao666/521d45db769ca7ed5fbe5ef14a59f16a.js&quot;&gt;&lt;/script&gt;</content><author><name>taihao666</name></author><category term="P2E" /><summary type="html">대체 RMarkdown은 어케올리는거야</summary></entry></feed>
+&lt;script src=&quot;https://gist.github.com/taihao666/521d45db769ca7ed5fbe5ef14a59f16a.js&quot;&gt;&lt;/script&gt;
+
+&lt;noscript&gt;&lt;pre&gt;a = [1,2,3,4,5]
+for i in a:
+  print(i)
+
+  &lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/taihao666/521d45db769ca7ed5fbe5ef14a59f16a.js&quot;&gt; &lt;/script&gt;</content><author><name>taihao666</name></author><category term="P2E" /><summary type="html">헤딩 ㄴ ㅇ 대체 RMarkdown은 어케올리는거야</summary></entry></feed>
