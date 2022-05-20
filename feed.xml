@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://taihao666.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taihao666.github.io/" rel="alternate" type="text/html" /><updated>2022-05-20T23:41:55+09:00</updated><id>https://taihao666.github.io/feed.xml</id><title type="html">공모전 대비 공부노트</title><subtitle>하나만 걸려라</subtitle><entry><title type="html">Python 강좌(2) - Python 제어문</title><link href="https://taihao666.github.io/python-control-statement.md" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" /><published>2022-05-20T00:00:00+09:00</published><updated>2022-05-20T00:00:00+09:00</updated><id>https://taihao666.github.io/python-control-statement.md</id><content type="html" xml:base="https://taihao666.github.io/python-control-statement.md">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+   &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;일쳐하라고&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ㅎㅇㅎㅇㅎㅇㅎㅇ&lt;/p&gt;</content><author><name>taihao666</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. 일쳐하라고 Python 강좌(2) - Python 제어문</summary></entry><entry><title type="html">일쳐하라고</title><link href="https://taihao666.github.io/python-basic.md" rel="alternate" type="text/html" title="일쳐하라고" /><published>2022-05-20T00:00:00+09:00</published><updated>2022-05-20T00:00:00+09:00</updated><id>https://taihao666.github.io/python-basic.md</id><content type="html" xml:base="https://taihao666.github.io/python-basic.md">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+   &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;일쳐하라고&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ㅎㅇㅎㅇ&lt;/p&gt;</content><author><name>taihao666</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. 일쳐하라고 Python 강좌(2) - Python 제어문</summary></entry><entry><title type="html">P2E_Study_Note</title><link href="https://taihao666.github.io/P2E_Study_Note.Rmd" rel="alternate" type="text/html" title="P2E_Study_Note" /><published>2022-05-20T00:00:00+09:00</published><updated>2022-05-20T00:00:00+09:00</updated><id>https://taihao666.github.io/P2E_Study_Note.Rmd</id><content type="html" xml:base="https://taihao666.github.io/P2E_Study_Note.Rmd">```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 배경 지식
+
+## Smart Contract란?
+
+간단하게 말해 계약을 보증하는 codified-agreement다.
+일상 속 일어나는 계약에서 필수 요소인 &quot;합의&quot;를 전자 상의 코드를 통해 데이터로 남기는 것. 
+이는  다음과 같은 곳에 쓰인다.
+
+* Token and securities creation
+* Digital identity
+* Recording of financial data
+* Trading 
+* Supply Chain management
+* etc...
+
+smart contract는 블록체인의 기본 이념인 decentralization의 핵심이다.
+
+**no need for trusted third parties**
+
+제일 중요한 포인트다. 
+
+## dApps 
+
+### What are dApps?
+
+Often provides the same functions as Web2
+
+근데 차이점은 아무도 central control of the dApp이 없다는 거. 
+앱 코드가 오픈 소스고, 더 많은 사람들이 함께 app building에 참여할 수 있다.
+
+무엇보다 internal token economy가 있다.
+
+토큰은:
+* **platform token used for all transactions**
+* **incentivization for user growth, adoption, and marketing initiatives**
+* governance token (vote on propasals)
+* security tokens
+
+등으로 쓰인다. 
+볼드처리한 글이 아마 우리가 쓰고싶은 용도가 아닐까
+
+물론 우리가 dApps를 위한 backend개발을 직접 할 필요는 없다.
+Morails같은 building tools가 해주니까 ㅋ
+
+## Web3 Authentication
+
+### What is Web3 Authentication?
+
+그냥 로그인 툴이다. 
+Web2의 로그인 방식과의 차이점은:
+
+  * Web2: Email, ID combination with a password
+  * Web3:  Crypto addresses
+
+가 로그인에 필요하다는 것. 
+
+Web3의 로그인 방식은 매우 복잡하지만 이런 절차를 간단하게 만들어 놓은 
+**&quot;Wallets&quot;**들이 Browser Extensions나 Mobile Apps로 개발되었다. 
+
+### Why do you need Web3 Authentication?
+
+유저들은 authentication을 통해 특정 네트워크에 접속한다.
+그때부터 유저들은 다른 authenticated 유저들과 네트워크에서 소통할 수 있고, 이렇기 때문에 모든 Web3 dApp들은 Web3 authentication으로 로그인 해야한다.
+
+근데 만드는데 너무 오래걸림. 
+
+그걸 [Morails](https://moralis.io/)가 간단하게 해놨다.
+그래서 코드 한줄로 복잡한 과정 다 커버칠 수 있다. 
+
+### Web3 Wallets
+
+Digital wallet이다. 
+Crypto Realm을 돌아다니려면 거쳐야하는 필수 관문으로,
+이거로 NFT marketplaces, NFT games 등 다양한 Crypto platforms에 접속할 수 있다.
+
+다른 객체의 개입 없이 digital assets를 저장할 수 있어서 지갑의 소유자 외에는 아무도 그 지갑에 대한 access를 가지고 있지 않다.
+
+**주의할 점**
+이에 따라 지갑을 통해 일어나는 모든 거래에 대한 
+책임이 소유자에게 간다. 따라서 Access Key를 
+절대적 private으로 유지해야 한다. 
+
+Web3 Wallet이 왜 필요할까?
+
+  * 모든 crypto assess를 관리할 수 있다.
+  * allows easy aceesses to dApps
+  
+다음은 여러가지 popular Web3 Wallet들이다
+
+  * MetaMask
+  * Coinbase Wallet
+  * Argent
+  * Trust Wallet
+  * Rainbow
+  
+요약: 이거 없으면 접속 자체가 안됨. 
+
+### WalletConnect
+
+Wallet Coonnect란
+mobile crypto wallets를 dApps에 연결시켜주는
+오픈소스 Web3 프로토콜이다. 
+즉 이거 자체는 어플이 아니고 다른 거 만들 때 
+이걸 쓴다는 거다.
+
+그리고 **무료**다. 
+
+자세한 내용은 [official WalletConnect](https://walletconnect.com/)에서 보자. 
+
+# P2E 방식
+
+게임을 한다-&gt;이긴다-&gt;토큰을 받는다.
+
+## 게임을 한다.
+
+우리가 시도하는 바이럴 테그(우리가 만든 말인데 꽤나 그럴싸 한듯)의 nft화에서는 SNS를 한다로 대체될 예정이다. 물론 게임을 플레이한다고 무조건 토큰을 주는 게 아니듯이 SNS를 쓴다고 토큰을 지급하지 않는다. 
+토큰의 지급 조건은 승리다. 
+
+## 이긴다.
+
+게임 플레이 중 토큰을 지급받을 수 있는 조건이다.
+SNS에서 승리는 Viral이 되는 것, 즉 많은 사람들이 함께 공유한다는 것이다.
+무엇을 공유하는가? 바로 #해시태그 다. 
+
+최근 해시태그를 이용한 릴레이의 형태를 가진 챌린지가 
+유행하고 있다. 
+Ex) 
+* 인스타그램 스토리 직접추가 스티커
+* 트위터 해시태그 
+일정 태그가 널리 퍼지면 이를 바이럴이라 하자.
+바이럴 테그는 SNS 상의 승리 조건을 달성했다고 볼 수 있다.
+
+## 토큰을 받는다
+
+
+### Initial Setup</content><author><name></name></author><summary type="html">```{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE) ```</summary></entry><entry><title type="html">Gettysburg Address</title><link href="https://taihao666.github.io/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>https://taihao666.github.io/gettysburg-address</id><content type="html" xml:base="https://taihao666.github.io/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
+
+&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content><author><name>abraham</name></author><summary type="html">Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</summary></entry></feed>
