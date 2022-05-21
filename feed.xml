@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://taihao666.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taihao666.github.io/" rel="alternate" type="text/html" /><updated>2022-05-21T02:14:05+09:00</updated><id>https://taihao666.github.io/feed.xml</id><title type="html">공모전 대비 공부노트</title><subtitle>하나만 걸려라</subtitle><entry><title type="html">화가 나네</title><link href="https://taihao666.github.io/first_article" rel="alternate" type="text/html" title="화가 나네" /><published>2022-05-21T00:00:00+09:00</published><updated>2022-05-21T00:00:00+09:00</updated><id>https://taihao666.github.io/first_article</id><content type="html" xml:base="https://taihao666.github.io/first_article">&lt;h1 id=&quot;헤딩&quot;&gt;헤딩&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://taihao666.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taihao666.github.io/" rel="alternate" type="text/html" /><updated>2022-05-22T00:28:49+09:00</updated><id>https://taihao666.github.io/feed.xml</id><title type="html">공모전 대비 공부노트</title><subtitle>하나만 걸려라</subtitle><entry><title type="html">화가 나네</title><link href="https://taihao666.github.io/first_article" rel="alternate" type="text/html" title="화가 나네" /><published>2022-05-21T00:00:00+09:00</published><updated>2022-05-21T00:00:00+09:00</updated><id>https://taihao666.github.io/first_article</id><content type="html" xml:base="https://taihao666.github.io/first_article">&lt;h1 id=&quot;헤딩&quot;&gt;헤딩&lt;/h1&gt;
 &lt;h2 id=&quot;ㄴ&quot;&gt;ㄴ&lt;/h2&gt;
 &lt;h3 id=&quot;ㅇ&quot;&gt;ㅇ&lt;/h3&gt;
 &lt;p&gt;대체 RMarkdown은 어케올리는거야&lt;/p&gt;
@@ -13,4 +13,215 @@ for i in a:
   print(i)
 
   &lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/taihao666/521d45db769ca7ed5fbe5ef14a59f16a.js&quot;&gt; &lt;/script&gt;</content><author><name>taihao666</name></author><category term="P2E" /><summary type="html">헤딩 ㄴ ㅇ 대체 RMarkdown은 어케올리는거야</summary></entry></feed>
+&lt;script src=&quot;https://gist.github.com/taihao666/521d45db769ca7ed5fbe5ef14a59f16a.js&quot;&gt; &lt;/script&gt;</content><author><name>taihao666</name></author><category term="P2E" /><summary type="html">헤딩 ㄴ ㅇ 대체 RMarkdown은 어케올리는거야</summary></entry><entry><title type="html">P2E 이론</title><link href="https://taihao666.github.io/P2E_StudyNote_Theory" rel="alternate" type="text/html" title="P2E 이론" /><published>2022-05-21T00:00:00+09:00</published><updated>2022-05-21T00:00:00+09:00</updated><id>https://taihao666.github.io/P2E_StudyNote_Theory</id><content type="html" xml:base="https://taihao666.github.io/P2E_StudyNote_Theory">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#배경-지식&quot;&gt;배경 지식&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#smart-contract란&quot;&gt;Smart Contract란&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dapps&quot;&gt;dApps&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#what-are-dapps-&quot;&gt;What are dApps?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#web3-authentication&quot;&gt;Web3 Authentication&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#what-is-web3-authentication-&quot;&gt;What is Web3 Authentication?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#why-do-you-need-web3-authentication-&quot;&gt;Why do you need Web3 Authentication?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#web3-wallets&quot;&gt;Web3 Wallets&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#walletconnect&quot;&gt;WalletConnect&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#p2e-방식&quot;&gt;P2E 방식&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#게임을-한다&quot;&gt;게임을 한다&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#이긴다&quot;&gt;이긴다&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#토큰을-받는다&quot;&gt;토큰을 받는다&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#internal-economy&quot;&gt;Internal Economy&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#initial-setup&quot;&gt;Initial Setup&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;배경-지식&quot;&gt;배경 지식&lt;/h1&gt;
+
+&lt;h2 id=&quot;smart-contract란&quot;&gt;Smart Contract란&lt;/h2&gt;
+
+&lt;p&gt;간단하게 말해 계약을 보증하는 codified-agreement다.
+일상 속 일어나는 계약에서 필수 요소인 “합의”를 전자 상의 코드를 통해 데이터로 남기는 것. 
+이는  다음과 같은 곳에 쓰인다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Token and securities creation&lt;/li&gt;
+  &lt;li&gt;Digital identity&lt;/li&gt;
+  &lt;li&gt;Recording of financial data&lt;/li&gt;
+  &lt;li&gt;Trading&lt;/li&gt;
+  &lt;li&gt;Supply Chain management&lt;/li&gt;
+  &lt;li&gt;etc…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;smart contract는 블록체인의 기본 이념인 decentralization의 핵심이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;no need for trusted third parties&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;제일 중요한 포인트다.&lt;/p&gt;
+
+&lt;h2 id=&quot;dapps&quot;&gt;dApps&lt;/h2&gt;
+
+&lt;h3 id=&quot;what-are-dapps&quot;&gt;What are dApps?&lt;/h3&gt;
+
+&lt;p&gt;Often provides the same functions as Web2&lt;/p&gt;
+
+&lt;p&gt;근데 차이점은 아무도 central control of the dApp이 없다는 거. 
+앱 코드가 오픈 소스고, 더 많은 사람들이 함께 app building에 참여할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;무엇보다 internal token economy가 있다.&lt;/p&gt;
+
+&lt;p&gt;토큰은:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;platform token used for all transactions&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;incentivization for user growth, adoption, and marketing initiatives&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;governance token (vote on propasals)&lt;/li&gt;
+  &lt;li&gt;security tokens&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;등으로 쓰인다. 
+볼드처리한 글이 아마 우리가 쓰고싶은 용도가 아닐까&lt;/p&gt;
+
+&lt;p&gt;물론 우리가 dApps를 위한 backend개발을 직접 할 필요는 없다.
+Morails같은 building tools가 해주니까 ㅋ&lt;/p&gt;
+
+&lt;h2 id=&quot;web3-authentication&quot;&gt;Web3 Authentication&lt;/h2&gt;
+
+&lt;h3 id=&quot;what-is-web3-authentication&quot;&gt;What is Web3 Authentication?&lt;/h3&gt;
+
+&lt;p&gt;그냥 로그인 툴이다. 
+Web2의 로그인 방식과의 차이점은:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web2: Email, ID combination with a password&lt;/li&gt;
+  &lt;li&gt;Web3:  Crypto addresses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;가 로그인에 필요하다는 것.&lt;/p&gt;
+
+&lt;p&gt;Web3의 로그인 방식은 매우 복잡하지만 이런 절차를 간단하게 만들어 놓은 
+&lt;strong&gt;“Wallets”&lt;/strong&gt;들이 Browser Extensions나 Mobile Apps로 개발되었다.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-do-you-need-web3-authentication&quot;&gt;Why do you need Web3 Authentication?&lt;/h3&gt;
+
+&lt;p&gt;유저들은 authentication을 통해 특정 네트워크에 접속한다.
+그때부터 유저들은 다른 authenticated 유저들과 네트워크에서 소통할 수 있고, 이렇기 때문에 모든 Web3 dApp들은 Web3 authentication으로 로그인 해야한다.&lt;/p&gt;
+
+&lt;p&gt;근데 만드는데 너무 오래걸림.&lt;/p&gt;
+
+&lt;p&gt;그걸 &lt;a href=&quot;https://moralis.io/&quot;&gt;Morails&lt;/a&gt;가 간단하게 해놨다.
+그래서 코드 한줄로 복잡한 과정 다 커버칠 수 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;web3-wallets&quot;&gt;Web3 Wallets&lt;/h3&gt;
+
+&lt;p&gt;Digital wallet이다. 
+Crypto Realm을 돌아다니려면 거쳐야하는 필수 관문으로,
+이거로 NFT marketplaces, NFT games 등 다양한 Crypto platforms에 접속할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;다른 객체의 개입 없이 digital assets를 저장할 수 있어서 지갑의 소유자 외에는 아무도 그 지갑에 대한 access를 가지고 있지 않다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;주의할 점&lt;/strong&gt;
+이에 따라 지갑을 통해 일어나는 모든 거래에 대한 
+책임이 소유자에게 간다. 따라서 Access Key를 
+절대적 private으로 유지해야 한다.&lt;/p&gt;
+
+&lt;p&gt;Web3 Wallet이 왜 필요할까?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;모든 crypto assess를 관리할 수 있다.&lt;/li&gt;
+  &lt;li&gt;allows easy aceesses to dApps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;다음은 여러가지 popular Web3 Wallet들이다&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MetaMask&lt;/li&gt;
+  &lt;li&gt;Coinbase Wallet&lt;/li&gt;
+  &lt;li&gt;Argent&lt;/li&gt;
+  &lt;li&gt;Trust Wallet&lt;/li&gt;
+  &lt;li&gt;Rainbow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;요약: 이거 없으면 접속 자체가 안됨.&lt;/p&gt;
+
+&lt;h3 id=&quot;walletconnect&quot;&gt;WalletConnect&lt;/h3&gt;
+
+&lt;p&gt;Wallet Coonnect란
+mobile crypto wallets를 dApps에 연결시켜주는&lt;br /&gt;
+오픈소스 Web3 프로토콜이다. 
+즉 이거 자체는 어플이 아니고 다른 거 만들 때&lt;br /&gt;
+이걸 쓴다는 거다.&lt;/p&gt;
+
+&lt;p&gt;그리고 &lt;strong&gt;무료&lt;/strong&gt;다.&lt;/p&gt;
+
+&lt;p&gt;자세한 내용은 &lt;a href=&quot;https://walletconnect.com/&quot;&gt;official WalletConnect&lt;/a&gt;에서 보자.&lt;/p&gt;
+
+&lt;h1 id=&quot;p2e-방식&quot;&gt;P2E 방식&lt;/h1&gt;
+
+&lt;p&gt;게임을 한다-&amp;gt;이긴다-&amp;gt;토큰을 받는다.&lt;/p&gt;
+
+&lt;h2 id=&quot;게임을-한다&quot;&gt;게임을 한다&lt;/h2&gt;
+
+&lt;p&gt;우리가 시도하는 바이럴 테그(우리가 만든 말인데 꽤나 그럴싸 한듯)의&lt;br /&gt;
+nft화에서는 SNS를 한다로 대체될 예정이다.&lt;br /&gt;
+물론 게임을 플레이한다고 무조건 토큰을 주는 게&lt;br /&gt;
+아니듯이 SNS를 쓴다고 토큰을 지급하지 않는다.&lt;/p&gt;
+
+&lt;p&gt;토큰의 지급 조건은 승리다.&lt;/p&gt;
+
+&lt;h2 id=&quot;이긴다&quot;&gt;이긴다&lt;/h2&gt;
+
+&lt;p&gt;게임 플레이 중 토큰을 지급받을 수 있는 조건이다.&lt;br /&gt;
+SNS에서 승리는 Viral이 되는 것, 즉 많은 사람들이 함께 공유한다는 것이다.&lt;br /&gt;
+무엇을 공유하는가? 바로 #해시태그 다.&lt;/p&gt;
+
+&lt;p&gt;최근 해시태그를 이용한 릴레이의 형태를 가진 챌린지가 
+유행하고 있다.&lt;/p&gt;
+
+&lt;p&gt;Ex)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;인스타그램 스토리 직접추가 스티커&lt;/li&gt;
+  &lt;li&gt;트위터 해시태그 
+일정 태그가 널리 퍼지면 이를 바이럴이라 하자.
+바이럴 테그는 SNS 상의 승리 조건을 달성했다고 볼 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;근데 지급 조건이 존나 복잡하다.&lt;/p&gt;
+
+&lt;h2 id=&quot;토큰을-받는다&quot;&gt;토큰을 받는다&lt;/h2&gt;
+
+&lt;h3 id=&quot;토큰-지급-방식&quot;&gt;토큰 지급 방식&lt;/h3&gt;
+&lt;p&gt;태그를 처음 시작한 사람한테 ntf 소유권을 부여한다. 
+근데 이 사람한테 보상을 몰아주는 건 아니다. 
+그 동영상에서 말한 것 처럼 2차 창작물의 개념을
+적용시켜보면 어떰?&lt;/p&gt;
+
+&lt;p&gt;파이 크기를 정하는 건 일단 제쳐두고&lt;/p&gt;
+
+&lt;p&gt;태그 창시자한테 ntf 소유권은 있는데
+그 태그를 써서 게시물을 올린 사람들의 글을
+2차 창작물로 인정해줘서 또 다른 nft로 인정해 주는 거임.&lt;/p&gt;
+
+&lt;p&gt;그렇게 되면 일정 태그가 유행할수록
+최초로 만든 사람한테 일정한 비율로 토큰이 들어가고&lt;br /&gt;
+그거 써서 게시글 올린 사람들도 토큰 받고.&lt;/p&gt;
+
+&lt;p&gt;일정 조회수 기준 잡아놓고 더 올라가면 인센받는 식으로 한다던가&lt;/p&gt;
+
+&lt;p&gt;쓰고 보니까 좀 구린 것 같기도 하고&lt;/p&gt;
+
+&lt;p&gt;근데 내가 봤을 때 문제는 internal econ임 &lt;br /&gt;
+이거 계속 퍼주다보면 가치가 계속 바뀔텐데 컨트롤을 어케하지?&lt;/p&gt;
+
+&lt;h3 id=&quot;internal-economy&quot;&gt;Internal Economy&lt;/h3&gt;
+&lt;p&gt;는 공부 더 해야됨&lt;/p&gt;
+&lt;h2 id=&quot;initial-setup&quot;&gt;Initial Setup&lt;/h2&gt;</content><author><name>taihao666</name></author><category term="P2E" /><summary type="html">배경 지식 Smart Contract란 dApps What are dApps? Web3 Authentication What is Web3 Authentication? Why do you need Web3 Authentication? Web3 Wallets WalletConnect P2E 방식 게임을 한다 이긴다 토큰을 받는다 Internal Economy Initial Setup</summary></entry></feed>

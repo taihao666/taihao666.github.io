@@ -24,5 +24,51 @@
       </item>
       
     
+      
+      <item>
+        <title>P2E 이론</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#배경-지식&quot;&gt;배경 지식&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#smart-contract란&quot;&gt;Smart Contract란&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dapps&quot;&gt;dApps&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#what-are-dapps-&quot;&gt;What are dApps?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#web3-authentication&quot;&gt;Web3 Authentication&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#what-is-web3-authentication-&quot;&gt;What is Web3 Authentication?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#why-do-you-need-web3-authentication-&quot;&gt;Why do you need Web3 Authentication?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#web3-wallets&quot;&gt;Web3 Wallets&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#walletconnect&quot;&gt;WalletConnect&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#p2e-방식&quot;&gt;P2E 방식&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#게임을-한다&quot;&gt;게임을 한다&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#이긴다&quot;&gt;이긴다&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#토큰을-받는다&quot;&gt;토큰을 받는다&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#internal-economy&quot;&gt;Internal Economy&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#initial-setup&quot;&gt;Initial Setup&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sat, 21 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://taihao666.github.io/P2E_StudyNote_Theory</link>
+        <guid isPermaLink="true">https://taihao666.github.io/P2E_StudyNote_Theory</guid>
+      </item>
+      
+    
   </channel>
 </rss>
