@@ -8,24 +8,6 @@
     
       
       <item>
-        <title>화가 나네</title>
-        
-          <description>&lt;h1 id=&quot;헤딩&quot;&gt;헤딩&lt;/h1&gt;
-&lt;h2 id=&quot;ㄴ&quot;&gt;ㄴ&lt;/h2&gt;
-&lt;h3 id=&quot;ㅇ&quot;&gt;ㅇ&lt;/h3&gt;
-&lt;p&gt;대체 RMarkdown은 어케올리는거야&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 21 May 2022 00:00:00 +0900</pubDate>
-        <link>
-        https://taihao666.github.io/first_article</link>
-        <guid isPermaLink="true">https://taihao666.github.io/first_article</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>P2E 이론</title>
         
           <description>&lt;ul&gt;
@@ -53,6 +35,7 @@
       &lt;li&gt;&lt;a href=&quot;#이긴다&quot;&gt;이긴다&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#토큰을-받는다&quot;&gt;토큰을 받는다&lt;/a&gt;
         &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#토큰-지급-방식&quot;&gt;토큰 지급 방식&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#internal-economy&quot;&gt;Internal Economy&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -63,10 +46,28 @@
 
 </description>
         
-        <pubDate>Sat, 21 May 2022 00:00:00 +0900</pubDate>
+        <pubDate>Sun, 22 May 2022 00:00:00 +0900</pubDate>
         <link>
         https://taihao666.github.io/P2E_StudyNote_Theory</link>
         <guid isPermaLink="true">https://taihao666.github.io/P2E_StudyNote_Theory</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>화가 나네</title>
+        
+          <description>&lt;h1 id=&quot;헤딩&quot;&gt;헤딩&lt;/h1&gt;
+&lt;h2 id=&quot;ㄴ&quot;&gt;ㄴ&lt;/h2&gt;
+&lt;h3 id=&quot;ㅇ&quot;&gt;ㅇ&lt;/h3&gt;
+&lt;p&gt;대체 RMarkdown은 어케올리는거야&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 21 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        https://taihao666.github.io/first_article</link>
+        <guid isPermaLink="true">https://taihao666.github.io/first_article</guid>
       </item>
       
     

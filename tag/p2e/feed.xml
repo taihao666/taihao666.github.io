@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://taihao666.github.io/tag/p2e/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taihao666.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-22T00:28:49+09:00</updated>
+  <updated>2022-05-22T01:24:25+09:00</updated>
   <id>https://taihao666.github.io/tag/p2e/feed.xml</id>
 
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">P2E 이론</title>
       <link href="https://taihao666.github.io/P2E_StudyNote_Theory" rel="alternate" type="text/html" title="P2E 이론" />
-      <published>2022-05-21T00:00:00+09:00</published>
-      <updated>2022-05-21T00:00:00+09:00</updated>
+      <published>2022-05-22T00:00:00+09:00</published>
+      <updated>2022-05-22T00:00:00+09:00</updated>
       <id>https://taihao666.github.io/P2E_StudyNote_Theory</id>
       <content type="html" xml:base="https://taihao666.github.io/P2E_StudyNote_Theory">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#배경-지식&quot;&gt;배경 지식&lt;/a&gt;
@@ -62,6 +62,7 @@
       &lt;li&gt;&lt;a href=&quot;#이긴다&quot;&gt;이긴다&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#토큰을-받는다&quot;&gt;토큰을 받는다&lt;/a&gt;
         &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#토큰-지급-방식&quot;&gt;토큰 지급 방식&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#internal-economy&quot;&gt;Internal Economy&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -269,7 +270,7 @@ SNS에서 승리는 Viral이 되는 것, 즉 많은 사람들이 함께 공유�
       
 
       
-        <summary type="html">배경 지식 Smart Contract란 dApps What are dApps? Web3 Authentication What is Web3 Authentication? Why do you need Web3 Authentication? Web3 Wallets WalletConnect P2E 방식 게임을 한다 이긴다 토큰을 받는다 Internal Economy Initial Setup</summary>
+        <summary type="html">배경 지식 Smart Contract란 dApps What are dApps? Web3 Authentication What is Web3 Authentication? Why do you need Web3 Authentication? Web3 Wallets WalletConnect P2E 방식 게임을 한다 이긴다 토큰을 받는다 토큰 지급 방식 Internal Economy Initial Setup</summary>
       
 
       
