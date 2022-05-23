@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://taihao666.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taihao666.github.io/" rel="alternate" type="text/html" /><updated>2022-05-22T01:24:25+09:00</updated><id>https://taihao666.github.io/feed.xml</id><title type="html">공모전 대비 공부노트</title><subtitle>하나만 걸려라</subtitle><entry><title type="html">P2E 이론</title><link href="https://taihao666.github.io/P2E_StudyNote_Theory" rel="alternate" type="text/html" title="P2E 이론" /><published>2022-05-22T00:00:00+09:00</published><updated>2022-05-22T00:00:00+09:00</updated><id>https://taihao666.github.io/P2E_StudyNote_Theory</id><content type="html" xml:base="https://taihao666.github.io/P2E_StudyNote_Theory">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://taihao666.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taihao666.github.io/" rel="alternate" type="text/html" /><updated>2022-05-23T16:47:02+09:00</updated><id>https://taihao666.github.io/feed.xml</id><title type="html">공모전 대비 공부노트</title><subtitle>하나만 걸려라</subtitle><entry><title type="html">P2E 이론</title><link href="https://taihao666.github.io/P2E_StudyNote_Theory" rel="alternate" type="text/html" title="P2E 이론" /><published>2022-05-22T00:00:00+09:00</published><updated>2022-05-22T00:00:00+09:00</updated><id>https://taihao666.github.io/P2E_StudyNote_Theory</id><content type="html" xml:base="https://taihao666.github.io/P2E_StudyNote_Theory">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#배경-지식&quot;&gt;배경 지식&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#smart-contract란&quot;&gt;Smart Contract란&lt;/a&gt;&lt;/li&gt;
@@ -109,7 +109,7 @@ Web2의 로그인 방식과의 차이점은:&lt;/p&gt;
 
 &lt;h3 id=&quot;web3-wallets&quot;&gt;Web3 Wallets&lt;/h3&gt;
 
-&lt;p&gt;Digital wallet이다. 
+&lt;p&gt;Digital wallet이다. &lt;br /&gt;
 Crypto Realm을 돌아다니려면 거쳐야하는 필수 관문으로,
 이거로 NFT marketplaces, NFT games 등 다양한 Crypto platforms에 접속할 수 있다.&lt;/p&gt;
 
@@ -208,8 +208,50 @@ SNS에서 승리는 Viral이 되는 것, 즉 많은 사람들이 함께 공유�
 &lt;p&gt;근데 내가 봤을 때 문제는 internal econ임 &lt;br /&gt;
 이거 계속 퍼주다보면 가치가 계속 바뀔텐데 컨트롤을 어케하지?&lt;/p&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;2022-05-23&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;근데 nft의 근본적인 개념 자체가 예를들어 &lt;strong&gt;#한잡대&lt;/strong&gt;라는 태그가 nft화 됐다고 치면, 한잡대 태그 자체가 가치가 있어야 되는데, 그 가치를 매기는 기준이 조회수인 거 아님?
+애초에 조회수 기준으로 보상을 주는 방식 자체에 문제가 뭐냐면, 그렇게 되면 nft trading system자체가 의미가 없다는 거지. 
+이걸 어케 개선하느냐&lt;/p&gt;
+
+&lt;p&gt;–&amp;gt; nft의 값은 어차피 소비자들이 책정하는 거니까, 이 기준이 “조회수+Rarity”가 되도록 하는 거지.&lt;/p&gt;
+
+&lt;p&gt;이렇게 하면:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;소장 자체에 의미가 생긴다&lt;/li&gt;
+  &lt;li&gt;더 흥할 것 같은 태그는 팔린다
+    &lt;ul&gt;
+      &lt;li&gt;이게 팔리는 이유는, 이후에 흥하면 태그의 값어치가 더 올라갈거니까&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;똥쓰레기 태그는 안팔린다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;완벽한 nft시장 이론 아닌가?&lt;/p&gt;
+
+&lt;p&gt;이런 방식으로 굴리면 그냥 여러가지 SNS사이트 상에서 종합적으로 그 태그에 의해서 발생된 조회수만 사람들이 한 눈에 볼 수 있는 서비스만 만들어주면 된다.&lt;/p&gt;
+
+&lt;p&gt;그리고 태그nft 소장의 메리트는 더 생각해봐야 함.&lt;br /&gt;
+소장 행위 자체에 대한 incentive도 있으면 좋을 것 같거든 (like 루나코인).&lt;/p&gt;
+
 &lt;h3 id=&quot;internal-economy&quot;&gt;Internal Economy&lt;/h3&gt;
 &lt;p&gt;는 공부 더 해야됨&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2022-05-22&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;P2E에서는 보상으로 코인을 주고 나서 게임 자체에서 사용처를 둬서 소각시스템을 갖췄는데, 아마 우리는 SNS에서는 API로 정보만 긁어올거니까 굳이 SNS 내에서 사용할 필요 없이 nft 발행 앱 자체에 토큰 사용처를 만들어야할 것 같다.&lt;/p&gt;
+
+&lt;p&gt;기존 아이디어는 SNS상에서 광고하는 물품을 살 때 받은 토큰을 쓸 수 있게 하자는 거였는데, 좀 더 범용성 있게 상품권이나 깊티로 교환해주면 어떨까한다 (SNS랑 협업을 안하니까).&lt;/p&gt;
+
+&lt;p&gt;SK dt가 하고싶은건 지들이 발행해주는 토큰을 아무데서나 쓸 수 있게 하는 건데, 그건 어떻게 하냐.&lt;br /&gt;
+&lt;strong&gt;—&amp;gt;일단 현금화는 답이 아님&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이두희가 하는 다른 P2E 프로젝트(실타래)가 있는데, 그걸 좀 더 파보겠음&lt;/p&gt;
+
 &lt;h2 id=&quot;initial-setup&quot;&gt;Initial Setup&lt;/h2&gt;</content><author><name>taihao666</name></author><category term="P2E" /><summary type="html">배경 지식 Smart Contract란 dApps What are dApps? Web3 Authentication What is Web3 Authentication? Why do you need Web3 Authentication? Web3 Wallets WalletConnect P2E 방식 게임을 한다 이긴다 토큰을 받는다 토큰 지급 방식 Internal Economy Initial Setup</summary></entry><entry><title type="html">화가 나네</title><link href="https://taihao666.github.io/first_article" rel="alternate" type="text/html" title="화가 나네" /><published>2022-05-21T00:00:00+09:00</published><updated>2022-05-21T00:00:00+09:00</updated><id>https://taihao666.github.io/first_article</id><content type="html" xml:base="https://taihao666.github.io/first_article">&lt;h1 id=&quot;헤딩&quot;&gt;헤딩&lt;/h1&gt;
 &lt;h2 id=&quot;ㄴ&quot;&gt;ㄴ&lt;/h2&gt;
 &lt;h3 id=&quot;ㅇ&quot;&gt;ㅇ&lt;/h3&gt;
